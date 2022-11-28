@@ -1,0 +1,104 @@
+.loginForm {
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-image: url("../image/loginback.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.login {
+    margin-top: 100px;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    background-color: #fff;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.loginM{
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.messeage{
+    position: absolute;
+    top: 50%;
+    box-sizing: border-box;
+    width: 600px;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    color: #780997;
+}
+#id_val{
+    box-sizing: border-box;
+    position: absolute;
+    top: 110px;
+    margin: 0 10%;
+    left: 0;
+    width: 80%;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+#pw_val{
+    box-sizing: border-box;
+    position: absolute;
+    top: 180px;
+    left: 0;
+    margin: 0 10%;
+    width: 80%;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+.loginbtn{
+    position: absolute;
+    width: 80%;
+    height: 50px;
+    top: 260px;
+    left: 0;
+    margin: 0 10%;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #780997;
+}
+.joinBTN{
+    position: absolute;
+    top: 430px;
+    left: 140px;
+}
+.findIdBTN{
+    position: absolute;
+    top: 430px;
+    left: 267px;
+}
+.findPwBTN{
+    position: absolute;
+    top: 430px;
+    left: 380px;
+}
+.loginContent1{
+    box-sizing: border-box;
+    position: absolute;
+    top: 330px;
+    width: 80%;
+    margin: 0 10%;
+    font-size: 0.8em;
+}
+.loginContent2{
+    box-sizing: border-box;
+    position: absolute;
+    top: 370px;
+    width: 80%;
+    margin: 0 10%;
+    font-size: 0.8em;
+}
+.loginForm a:hover{
+    color: #FF5B28;
+}
+footer{
+    margin: 0;
+}

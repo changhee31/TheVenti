@@ -1,0 +1,268 @@
+html,body,section,article,header,footer,h1,h2,h3,h4,p,div,span,legend,ul,li{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:visited{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
+/*main-menu*/
+header, .main-menu {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    width: 100%;
+    z-index: 500;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.main-menu {
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo {
+    width: 200px;
+    height: 60px;
+}
+.menuwrap{
+    width: 930px;
+    height: 110px;
+}
+.smenu {
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+.smenu > a {
+    box-sizing: border-box; 
+    height: 64px;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    padding: 0 32px;
+    align-items: center;
+    font-family: "Lato";
+    font-size: 1em;
+    font-weight: 400;
+    white-space: nowrap;
+}
+.ssmenu {
+    padding-top: 20px;
+    display: none;
+    text-align: center;
+}
+.ssmenu li {
+    line-height: 40px;
+}
+.smenu:hover .ssmenu {
+    display: block;
+}
+.top-menu {
+    width: 300px;
+    height: 30px;
+    display: flex;
+}
+.top-menu > li {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.bot-menu {
+    margin: 0 auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5px;
+    height: 100%;
+}
+.loginName a {
+    color:  #7B00A0;
+    font-weight: bold;
+}
+.bot-menu > li {
+    white-space: nowrap;
+}
+.sub-bg {
+    width: 100%;
+    height: 230px;
+    background-color: #fff;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    z-index: 5;
+    display: none;
+}
+/*푸터*/
+footer{
+    margin-top: 50px;
+    background-color: #7B00A0;
+}
+.footerWrap{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #ccc;
+}
+.tfContainer{
+    max-width: 1500px;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.topFooter .tfContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topFooter{
+    min-width: 1400px;
+    position: relative;
+}
+.footerLogo{
+    width: 25%;
+}
+.footerLogo > img {
+    width: 250px;
+    height: 150px;
+}
+.footerContent{
+    width: 60%;
+}
+.footerUL {
+    display: flex;
+}
+.footerUL a {
+    box-sizing: border-box;
+    height: 64px;
+    display: flex;
+    padding: 0 20px;
+    margin: 0 12px;
+    align-items: center;
+    font-family: "Lato";
+    font-size: 1em;
+    font-weight: 400;
+    white-space: nowrap;
+    color: #D5D5D5;
+}
+.FooterSNS{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.FooterSNS img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.botFooter{
+    margin-top: 30px;
+}
+.botFWrap{
+        display: flex;
+        flex-direction: column;
+}
+.bfcontainer{
+    max-width: 1500px;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BFR {
+    width: 33%;
+    position: relative;
+}
+.BFR > p {
+    display: inline-block;
+    position: absolute;
+}
+.telC1{
+    top: -31px;
+    left: 20px;
+}
+.telC2{
+    top: 18px;
+    left: 20px;
+}
+.tel1{
+    top: -45px;
+    left: 120px;
+}
+.tel2{
+    top: 5px;
+    left: 120px;
+}
+.telC1, .telC2 {
+    font-weight: bold;
+    color: #D5D5D5;
+}
+.tel1,.tel2 {
+    font-weight: bold;
+    font-size: 2em;
+    color: #FF5B28;
+}
+.BFL{
+    width: 66%;
+    position: relative;
+    min-height: 150px
+}
+.BFL p {
+    display: inline-block;
+    color: #D5D5D5;
+    position: absolute;
+}
+.theVentiBusan, .theVentiSeoul{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.theVentiBusan{
+    top: 5px;
+    left: 30px;
+}
+.tvb-add{
+    top: 5px;
+    left: 190px;
+}
+.theVentiSeoul {
+    top: 40px;
+    left: 30px;
+}
+.tvs-add{
+    top: 40px;
+    left: 190px;
+}
+.BFL-content{
+    top: 70px;
+    left: 30px;
+}
+.copyRight{
+    top: 110px;
+    left: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+/*푸터*/

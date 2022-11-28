@@ -1,0 +1,357 @@
+
+
+/*slider*/
+.animationWrapper{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    height: 720px;
+    margin-bottom: 100px;
+    width: 100%;
+    
+}
+.mainslider {
+    width: 1500px;
+    height: 720px;
+    margin: 0 auto;
+}
+.slider_image {
+    width: 1500px;
+    height: 700px;
+    float: left;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet  {
+    background: #fff;
+    opacity: 1;
+  }
+  .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet-active  {
+    background: #780997;
+  }
+/*slider*/
+
+/*음료 탭,슬라이드 메뉴*/
+.menu-container a {
+    text-decoration: none;
+    color: #FF5B28;
+    position: absolute;
+    right: 250px;
+    top: 30px;
+    padding: 5px;
+    box-shadow: 5px 5px  5px -5px #F6F6F6;
+    border-radius: 5px;
+}
+.menu-container a:visited {
+    text-decoration: none;
+    color: #FF5B28;
+}
+.menu-container{
+	width: 1400px;
+	margin: 0 auto;
+    position: relative;
+}
+.menu-container > h1 {
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    left: 5px;
+    top: -20px;
+    font-size: 3em;
+}
+.logoTheVenti{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    top: -10px;
+    left: 285px;
+}
+.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-60%);
+    top: 20px;
+}
+.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tabs .current{
+	color: #fff;
+    background-color: rgba(123, 0, 160, 0.5); ;
+    border-radius: 15px;
+}
+
+.tab-content{
+	display: none;
+	padding: 15px;
+    height: 500px;
+    line-height: 20px;
+}
+.tab-content.current{
+	display: inherit;
+}
+.slide1, .slide2, .slide3, .slide4, .slide5{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+    position: relative;
+}
+.swiper-wrapper {
+    padding-top: 20px;
+}
+.slideIMG{
+    width: 90px;
+    height: 170px;
+    z-index: 0;
+}
+.tab-content .swiper-slide{
+    text-align: center;
+    height: 400px ;
+    padding-top: 30px;
+}
+.menu-content {
+    font-size: 0.8em;
+    width: 240px;
+    color: #7B00A0;
+    display: none;
+    z-index: 100;
+    position: absolute;
+}
+.Lbtn {
+    position: absolute;
+    top: 28% !important;
+    left: 37% !important;
+    width: 15px;
+    height: 15px;
+    color: rgba(123, 0, 160, 0.5);
+    border: 1px solid #ccc;
+    padding: 25px 20px 25px 17px;
+    border-radius: 50%;
+}
+.Rbtn{
+    position: absolute;
+    top: 28% !important;
+    right: 37% !important;
+    width: 15px;
+    height: 15px;
+    color: rgba(123, 0, 160, 0.5);
+    border: 1px solid #ccc;
+    padding: 25px 17px 25px 20px;
+    border-radius: 50%;
+}
+.hoverIMG{
+    transition: all 0.2s linear;
+    transform: scale(1.2);
+    z-index: -10;
+}
+.tab_slide_menu{
+    width: 100%;
+}
+.tab_slide_menu .swiper-slide-active{
+    transition: all 0.2s linear;
+    transform: scale(1.2);
+}
+.tab_slide_menu .swiper-slide-active .menu-content {
+    margin-top: 20px;
+}
+.tab_slide_menu .swiper-slide h4 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    top: 180px;
+    white-space: nowrap;
+}
+.tab_slide_menu .swiper-slide-active h4 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 100;
+    top: 200px;
+    margin: 0;
+}
+/*음료 탭,슬라이드 메뉴*/
+/*member*/
+.memberShip {
+    background-image: url("../image/mem3.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 140px 0;
+    background-color: #fafafa;
+    color: #E8DCDC;
+    height: 80px;
+    width: 100%;
+}
+.memberShip > p {
+    margin-bottom: 50px;
+}
+.memberShip > a {
+    background-color: #f6f6f6;
+    width: 30px;
+    height: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: bold;
+}
+.memberShip > a:hover {
+    background-color:rgba(120, 9, 151, 0.7);
+    color: #222;
+    transition: all 0.2s linear;
+}
+/*member*/
+/*preEnv*/
+.preEnv{
+    width: 100%;
+    height: 400px;
+    background-image: url(../image/bck3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.swrap{
+    position: relative;
+}
+.prewrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+    margin: auto;
+}
+.prewrap{
+    padding-top: 50px;
+}
+.left {
+    margin-right: 500px;
+    color: #fff;
+}
+.left > h1 {
+    font-size: 2.5em;
+}
+.right{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(189,189,189,0.5);
+    padding: 10px 20px;
+    border-radius: 3px;
+    position: relative;
+}
+.right > p {
+    display: inline-block;
+}
+.right > img {
+    width: 130px;
+    height: 130px;
+    padding-bottom: 30px;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+}
+.bot {
+    color: #fff;
+    position: absolute;
+    width: 1400px;
+    top: 330px;
+    left: 50%;
+    transform:translateX(-50%);
+    padding: 10px;
+    text-decoration: underline;
+    text-decoration-color: #fff ;
+    text-align: center;
+}
+.bot h3 {
+    display: inline-block;
+    background-color: rgba(189,189,189,0.5);
+}
+/*preEnv*/
+/*article*/
+/*notice*/
+.notice{
+    width: 100%;
+    height: 500px;
+    background-image: url("../image/noticeback.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.noticeWrap{
+    width: 1400px;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+.noticeWrap > h1{
+    color: #E8DCDC;
+}
+.noticeWrap > p{
+    color: #E8DCDC;
+}
+.line{
+    border-bottom: 3px solid #E8DCDC;
+    width: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.noticeContent{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.noticeContent > div {
+    background-color:  rgba(189,189,189,0.7);
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+}
+.noticeC2 {
+    margin: 0 40px;
+}
+.noticeTitle{
+    margin-top: 10px;
+}
+.noticeTitle > a:hover {
+    color: #7B00A0;
+}
+.notieDate {
+    margin: 5px 0;
+}
+.noticeWrite{
+    margin-top: 10px;
+    padding: 0 5px;
+}
+.noticeP{
+    font-weight: bold;
+}
+.noticeWrap > a {
+    color: #EAEAEA;
+    border: 2px solid #EAEAEA;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.noticeWrap > a:hover {
+    color: #000;
+    background-color: #EAEAEA;
+    transition: all 0.2s linear;
+}
+/*notice*/

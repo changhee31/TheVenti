@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.eventPWrap{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+    min-height: 850px;
+}
+.EtopWrap{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 50px auto;
+}
+.eventBtnWrap{
+    width: 300px;
+    height: 35px;
+    margin-top: 10px;
+    display: flex;
+}
+.eventBtnWrap > div{
+    position: relative;
+    width: 90px;
+    height: 35px;
+    margin-left: 10px;
+}
+.eventBtnWrap img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.eventBtnWrap input{
+    border-style: none;
+    padding:  7px 12px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: bold;
+}
+.current {
+    color: #FF5B28 ;
+    text-decoration-line: underline;
+    text-underline-offset : 5px;
+}
+table{
+    width: 1200px;
+    text-align: center; 
+    margin: 0 auto;
+   
+}
+tr{
+    border: 1px solid #000;
+}
+th{
+    height: 30px; 
+
+}
+td{
+    height: 60px;
+}
+.evnetPanchor{
+    width:1200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.evnetPanchor > a {
+    float: right;
+    background-color:#222;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.evnetPanchor > a:last-child {
+    margin-right: 50px;
+}
+.paging{
+	margin-top: 20px;
+	text-align:center;
+}
+.paging > a {
+	 padding:5px;
+	 margin-left:10px;
+	 
+}

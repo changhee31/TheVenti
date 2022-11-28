@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.writeWrap{
+    width: 80%;
+    height: 700px;
+    margin: 100px auto;
+    margin-top: 190px;
+}
+.titleImg{
+    width: 20px;
+    height: 20px;
+}
+.imageInput img{
+	width:200px;
+	height:200px;
+}
+.writeWrap > h2 {
+    padding-bottom: 50px;
+}
+.writeTRTitle h2 {
+    display: inline-block;
+}
+table{
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+.writeForm{
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+}
+.writeTR{
+    border-bottom: 1px solid #ccc;
+    height: 50px;
+}
+.writeTR > td:first-child{
+    border-right: 1px solid #ccc;
+}
+.titleInput{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    border-style: none;
+    padding-left: 10px;
+}
+input:focus {
+    outline: none;
+}
+table{
+    border-top: 1px solid #000;
+}
+.writeNotice{
+    text-align: left;
+    color: #747474;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.8em;
+}
+.writeNotice > td{
+    padding-left: 60px;
+    height: 30px;
+}
+.writeNotice input{
+    margin-left: 100px;
+    border-style: none;
+    background: #fff;
+    color: #747474;
+}
+.writeNotice input:active{
+    text-decoration: underline;
+    color: #000;
+}
+#pop_info_1{
+    border: 1px solid #780997;
+    width: 400px;
+    position: absolute;
+    top: 260px;
+    left: 700px;
+}
+#pop_info_2{
+    border: 1px solid #780997;
+    width: 400px;
+    position: absolute;
+    top: 260px;
+    left: 900px;
+}
+.infoTitle{
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-left: 20px;
+    color: rgba(123, 0, 160, 0.5); 
+}
+.pop_inner{
+    position: relative;
+}
+.btn_close1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.btn_close2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.dsc{
+    padding: 5px;
+    font-size: 0.75em;
+    border-top: 1px dotted #ccc;
+}
+.pop_wrap{
+    display: none;
+    background-color: #fff;
+    border-radius: 5px;
+}
+ textarea{
+    width: 100%;
+    height: 300px;
+    border-style: none;
+    outline: none;
+    resize: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.imageFile{
+    border-bottom: 1px solid #000;
+    height: 200px;
+}
+.borderR{
+    border-right: 1px solid #ccc;
+}
+.imageInput{
+    width: 430px;
+}
+.imageFile input {
+    background-color: #fff;
+}
+.btnwrap{
+    height: 100px;
+}
+.btnwrap input {
+    width: 100px;
+    height: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.btnwrap input:hover {
+    background-color: rgba(123, 0, 160, 0.5);
+    color: #fff;
+}
+#preview{
+	width:200px;
+	height:200px;
+}

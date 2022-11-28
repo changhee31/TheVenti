@@ -1,0 +1,209 @@
+.commonp {
+    display: inline-block;
+}
+.joinWrapper {
+    margin-top: 100px;
+    position: relative;
+    height: 800px;
+    width: 100%;
+}
+.bigInput {
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+} 
+.joinForm {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+.idP{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+}
+.idInput{
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+.pwP{
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+.pwInput {
+    position: absolute;
+    top: 160px;
+    left: 250px;
+}
+.repwP {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.repwInput{
+    position: absolute;
+    top: 240px;
+    left: 250px;
+}
+.nameP{
+    position: absolute;
+    top: 330px;
+    left: 100px;
+}
+.nameInput{
+    position: absolute;
+    top: 320px;
+    left: 250px;
+}
+.emailP{
+    position: absolute;
+    top: 410px;
+    left: 100px;
+}
+.emailInput{
+    position: absolute;
+    top: 400px;
+    left: 250px;
+}
+.birthP{
+    position: absolute;
+    top: 490px;
+    left: 100px;
+}
+.birthInput{
+    position: absolute;
+    top: 480px;
+    left: 250px;
+}
+.telP{
+    position: absolute;
+    top: 570px;
+    left: 100px;
+}
+.telInput{
+    position: absolute;
+    top: 560px;
+    left: 250px;
+}
+.addrP{
+    position: absolute;
+    top: 640px;
+    left: 100px;
+}
+.submitbtn{
+    position: absolute;
+    top: 680px;
+    left: 200px;
+    background-color: white;
+    border: 1px solid #222;
+}
+.backTo{
+    position: absolute;
+    top: 680px;
+    left: 500px;
+    padding: 2px 5px;
+    background-color: white;
+    border: 1px solid #222;
+}
+.iderror{
+    display: none;
+    position: absolute;
+    color: red;
+    top: 130px;
+    left: 250px;
+}
+.idcorrect{
+    display: none;
+    position: absolute;
+    color: green;
+    top: 130px;
+    left: 250px;
+}
+.pwerror{
+    display: none;
+    position: absolute;
+    color: red;
+    top: 210px;
+    left: 250px;
+}
+.pwcorrect{
+    display: none;
+    position: absolute;
+    color: green;
+    top: 210px;
+    left: 250px;
+}
+.repwerror{
+    display: none;
+    position: absolute;
+    color: red;
+    top: 290px;
+    left: 250px;
+}
+.repwcorrect{
+    display: none;
+    position: absolute;
+    color: green;
+    top: 290px;
+    left: 250px;
+}
+.nameerror{
+    display: none;
+    position: absolute;
+    color: red;
+    top: 370px;
+    left: 250px;
+}
+.namecorrect{
+    display: none;
+    position: absolute;
+    color: green;
+    top: 370px;
+    left: 250px;
+}
+.emailerror{
+    display: none;
+    position: absolute;
+    color: red;
+    top: 450px;
+    left: 250px;
+}
+.emailcorrect{
+    display: none;
+    position: absolute;
+    color: green;
+    top: 450px;
+    left: 250px;
+}
+.birtherror{
+    display: none;
+    position: absolute;
+    color: red;
+    top: 530px;
+    left: 250px;
+}
+.birthcorrect{
+    display: none;
+    position: absolute;
+    color: green;
+    top: 530px;
+    left: 250px;
+}
+.telerror{
+    display: none;
+    position: absolute;
+    color: red;
+    top: 610px;
+    left: 250px;
+}
+.telcorrect{
+    display: none;
+    position: absolute;
+    color: green;
+    top: 610px;
+    left: 250px;
+}
